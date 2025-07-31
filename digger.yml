@@ -7,5 +7,6 @@ generate_projects:
     createWorkspace: true
     defaultWorkflow: default
     cascadeDependencies: false 
+    executionOrderGroups: true
     dependsOnOrdering: false
     
