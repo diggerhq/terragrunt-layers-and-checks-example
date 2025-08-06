@@ -4,6 +4,7 @@ generate_projects:
   terragrunt_parsing:
     parallel: true
     createProjectName: true
+    projectAliasDelimiter: "/"
     createWorkspace: true
     defaultWorkflow: default
     cascadeDependencies: false 
