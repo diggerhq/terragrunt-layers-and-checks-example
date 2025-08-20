@@ -63,7 +63,7 @@ resource "null_resource" "data_warehouse2" {
   triggers = {
     environment    = var.environment
     pipeline_id    = null_resource.data_pipeline.id
-    warehouse_name = "${var.project_name}-${var.environment}-warehouse"
+    warehouse_name = "${var.project_name}-${var.environment}-warehouse2"
     target_bucket  = var.bucket_names[2] # Use third bucket for processed data
   }
 
